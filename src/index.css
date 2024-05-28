@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --primary-900-1: #EC8B68;
+  --primary-100: #FFDBBB;
+  --secondary-900: #3C5262;
+  --ternary-900: #F6E5D5;
+  --ternary-800: #FBF1E8
+}
+
+
+/* width */
+.scroll::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.scroll::-webkit-scrollbar-track {
+  background: var(--ternary-800);
+  border-radius: 5px;
+}
+
+/* Handle */
+.scroll::-webkit-scrollbar-thumb {
+  background: var(--secondary-900);
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+.scroll::-webkit-scrollbar-thumb:hover {
+  background: var(--ternary-800);
+}
+
+dialog::backdrop {
+  background-color: rgba(0, 0, 0, 0.75); /* Semi-transparent background */
+  backdrop-filter: blur(10px); /* Background blur */
+}
+
+
+
