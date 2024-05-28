@@ -32,7 +32,7 @@ function PerfilInfo() {
                 <div className="flex justify-between">
                   <span className="font-bold text-lg">Cel</span>
                   <span>
-                    <svg
+                    {/* <svg
                       xmlns="http://www.w3.org/2000/svg"
                       height="24px"
                       viewBox="0 -960 960 960"
@@ -40,7 +40,7 @@ function PerfilInfo() {
                       fill="black"
                     >
                       <path d="M440-280H280q-83 0-141.5-58.5T80-480q0-83 58.5-141.5T280-680h160v80H280q-50 0-85 35t-35 85q0 50 35 85t85 35h160v80ZM320-440v-80h320v80H320Zm200 160v-80h160q50 0 85-35t35-85q0-50-35-85t-85-35H520v-80h160q83 0 141.5 58.5T880-480q0 83-58.5 141.5T680-280H520Z" />
-                    </svg>
+                    </svg> */}
                   </span>
                 </div>
                 <p>3424432</p>
@@ -49,7 +49,7 @@ function PerfilInfo() {
                 <div className="flex justify-between">
                   <span className="font-bold text-lg">Email</span>
                   <span>
-                    <svg
+                    {/* <svg
                       xmlns="http://www.w3.org/2000/svg"
                       height="24px"
                       viewBox="0 -960 960 960"
@@ -57,7 +57,7 @@ function PerfilInfo() {
                       fill="black"
                     >
                       <path d="M440-280H280q-83 0-141.5-58.5T80-480q0-83 58.5-141.5T280-680h160v80H280q-50 0-85 35t-35 85q0 50 35 85t85 35h160v80ZM320-440v-80h320v80H320Zm200 160v-80h160q50 0 85-35t35-85q0-50-35-85t-85-35H520v-80h160q83 0 141.5 58.5T880-480q0 83-58.5 141.5T680-280H520Z" />
-                    </svg>
+                    </svg> */}
                   </span>
                 </div>
                 <p>nombre@gmail.com</p>
@@ -101,7 +101,9 @@ function PerfilInfo() {
                 Nombre
               </span>
               <div className="relative flex justify-center">
-                <div className="rounded-full bg-secondary-900 border-4 border-primary-900 w-32 h-32 md:w-40 md:h-40 bg-[url('https://cdnb.artstation.com/p/assets/images/images/056/273/829/medium/marta-nael-428789-final-changes-martanael.jpg?1668853044')] bg-cover"></div>
+                <div className="rounded-full bg-secondary-900 border-4 border-primary-900 w-32 h-32 md:w-40 md:h-40
+                
+                bg-cover"></div>
                 <span
                   onClick={()=>setShowModal(true)}
                   className="px-4 cursor-pointer transition-all  ease-in-out delay-150 hover:scale-125  font-bold bg-gradient-to-r from-blue-950 to-blue-700 py-2 text-ternary-900 text-base md:text-lg rounded-xl absolute bottom-0"
